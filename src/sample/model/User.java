@@ -10,6 +10,17 @@ public class User {
     private String login;
     private String password;
 
+    public User(int id, boolean parentAccount, String surname, String name, String otchestvo, int age, String login, String password) {
+        this.id = id;
+        this.parentAccount = parentAccount;
+        this.surname = surname;
+        this.name = name;
+        this.otchestvo = otchestvo;
+        this.age = age;
+        this.login = login;
+        this.password = password;
+    }
+
     public int getId() {
         return id;
     }
